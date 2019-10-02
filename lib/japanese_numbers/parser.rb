@@ -7,15 +7,15 @@ class JapaneseNumbers::Parser
   }
 
   def self.parse(str)
-    JIntParser.new.parse(str)
+    self.new.parse(str)
   end
 
   def parse(str)
     parts = split_to_parts(str)
     res = parts.inject(0) do |sum, part|
-      sum + part[0].to_i * (DELIMITERS[part[1]] || 1)
+      sum + part[0].to_f * (DELIMITERS[part[1]] || 1)
     end
-    res
+    res.to_i
   end
 
   def split_to_parts(str)
