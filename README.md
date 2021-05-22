@@ -3,6 +3,7 @@
 [![Tests](https://github.com/osyoyu/ruby-japanese_numbers/actions/workflows/minitest.yml/badge.svg)](https://github.com/osyoyu/ruby-japanese_numbers/actions/workflows/minitest.yml)
 
 Parser for Japanese numbers like "123万4567" or "5000兆円".
+For more information about the Japanese numeral system, refer to [Japanese numerals - Wikipedia](https://en.wikipedia.org/wiki/Japanese_numerals).
 
 ## Installation
 
