@@ -8,7 +8,7 @@ GEM
   specs:
     minitest (5.14.4)
     rake (13.0.3)
-    yard (0.9.26)
+    yard (0.9.36)
 
 PLATFORMS
   ruby
